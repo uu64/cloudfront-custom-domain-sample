@@ -1,0 +1,9 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "sample-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1haephxsmb2x2"
+s3_prefix = "sample-app"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
